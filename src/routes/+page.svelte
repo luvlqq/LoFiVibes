@@ -5,5 +5,5 @@
 </script>
 
 <Gif/>
-<Music/>
 <Clock/>
+<Music/>
