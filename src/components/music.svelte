@@ -1,24 +1,6 @@
-<script>
-    import { onMount } from 'svelte';
-
-    let volume = 0.5;
-    let audio;
-
-    function decreaseVolume() {
-        if (audio) {
-            audio.volume = volume;
-            audio.play();
-        }
-    }
-
-    onMount(() => {
-        audio = new Audio();
-    });
-</script>
-
-
 <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/jfKfPfyJRdk?autoplay=1&controls=0"
+    <iframe title="music"
+            src="https://www.youtube.com/embed/jfKfPfyJRdk?autoplay=1&controls=0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share"
             allowfullscreen>
     </iframe>
